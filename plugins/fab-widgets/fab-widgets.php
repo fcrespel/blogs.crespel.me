@@ -2,7 +2,7 @@
 /*
 Plugin Name: FAB Widgets
 Description: A collection of Wordpress sidebar widgets.
-Version: 1.1
+Version: 1.2
 Author: Fabien CRESPEL
 Author URI: http://fabien.crespel.me
 Text Domain: fab-widgets
@@ -14,7 +14,7 @@ function fab_widgets_init() {
 
     $widgets = array(
         'FAB_Widget_Context',
-	'FAB_Widget_Calendar',
+        'FAB_Widget_Calendar',
     );
 
     foreach ($widgets as $widget) {

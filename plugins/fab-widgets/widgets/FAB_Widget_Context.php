@@ -1,14 +1,13 @@
 <?php
 class FAB_Widget_Context extends WP_Widget {
 
-    function FAB_Widget_Context() {
+    public function __construct() {
         $widget_ops = array('classname' => 'widget_context', 'description' => __('Contextual information (search, archives, category, etc.)', 'fab-widgets'));
-        $this->WP_Widget('fab_widget_context', __('FAB: Context', 'fab-widgets'), $widget_ops);
+        parent::__construct('fab_widget_context', __('FAB: Context', 'fab-widgets'), $widget_ops);
     }
 
-    function widget($args, $instance) {
-        extract($args);
-        echo $before_widget;
+    public function widget($args, $instance) {
+        echo $args['before_widget'];
 
         $sitelink = '<a href="' . get_bloginfo('url') . '/">' . get_bloginfo('name') . '</a>';
 
@@ -28,6 +27,6 @@ class FAB_Widget_Context extends WP_Widget {
             }
         }
 
-        echo $after_widget;
+        echo $args['after_widget'];
     }
 }
