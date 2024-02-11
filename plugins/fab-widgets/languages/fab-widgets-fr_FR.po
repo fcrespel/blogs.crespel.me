@@ -1,0 +1,76 @@
+# Translation of the WordPress plugin FAB Widgets 1.0 by Fabien CRESPEL.
+# Copyright (C) 2010 Fabien CRESPEL
+# This file is distributed under the same license as the FAB Widgets package.
+#
+# Fabien Crespel, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: FAB Widgets 1.0\n"
+"POT-Creation-Date: 2010-05-05 23:16+0200\n"
+"PO-Revision-Date: 2010-05-05 23:27+0200\n"
+"Last-Translator: Fabien Crespel <fabien@crespel.net>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Description of the plugin/theme
+msgid "A collection of Wordpress sidebar widgets."
+msgstr "Une collection de widgets pour la colonne latérale."
+
+#: widgets/FAB_Widget_Context.php:5
+msgid "Contextual information (search, archives, category, etc.)"
+msgstr "Information contextuelle (recherche, archives, catégorie, etc.)"
+
+#: widgets/FAB_Widget_Context.php:6
+msgid "FAB: Context"
+msgstr "FAB: Contexte"
+
+#: widgets/FAB_Widget_Context.php:19
+#, php-format
+msgid ""
+"You are currently browsing the %1$s site archives for the %2$s category."
+msgstr ""
+"Vous parcourez actuellement les archives du site %1$s pour la catégorie %2$s."
+
+#: widgets/FAB_Widget_Context.php:21
+#, php-format
+msgid "You are currently browsing the %1$s site archives for the day %2$s."
+msgstr ""
+"Vous parcourez actuellement les archives du site %1$s pour la journée du "
+"%2$s."
+
+#: widgets/FAB_Widget_Context.php:21
+msgid "l, F jS, Y"
+msgstr "j F Y"
+
+#: widgets/FAB_Widget_Context.php:23
+#, php-format
+msgid "You are currently browsing the %1$s site archives for %2$s."
+msgstr "Vous parcourez actuellement les archives du site %1$s pour %2$s."
+
+#: widgets/FAB_Widget_Context.php:23
+msgid "F, Y"
+msgstr "F Y"
+
+#: widgets/FAB_Widget_Context.php:25
+#, php-format
+msgid "You are currently browsing the %1$s site archives for the year %2$s."
+msgstr ""
+"Vous parcourez actuellement les archives du site %1$s pour l'année %2$s."
+
+#: widgets/FAB_Widget_Context.php:27
+#, php-format
+msgid ""
+"You have searched the %1$s site archives for %2$s. If you are unable to find "
+"anything in these search results, use the menu or one of these links."
+msgstr ""
+"Vous avez recherché %1$s sur le site %2$s. Si aucun résultat n'est "
+"satisfaisant, utilisez le menu ou un des liens ci-dessous."
+
+#: widgets/FAB_Widget_Context.php:29
+#, php-format
+msgid "You are currently browsing the %1$s site archives."
+msgstr "Vous parcourez actuellement les archives du site %1$s."
