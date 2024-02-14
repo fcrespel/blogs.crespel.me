@@ -1,0 +1,38 @@
+/* Blue Black IE6 hacks */
+
+#header #blog-title {
+	margin: 0 0 0 20px;
+}
+
+blockquote {
+	margin: 0 0 10px 50px;
+}
+
+#comments ol li .comment-data {
+	height: 120px;
+}
+
+#comments ol li.alt .comment-data {
+	_height: 120px;
+}
+
+.rss-icon {
+	margin-left: 20px;
+}
+
+/*--ie6-warning--*/
+#ie6-warning {
+    font-size: 8pt;
+    margin-top: 5px;
+    padding: 3px;
+    border: 1px solid #018dd8;
+}
+
+#ie6-warning p {
+    margin: 0;
+    text-align: center;
+}
+
+#ie6-warning p strong {
+    color: red;
+}
